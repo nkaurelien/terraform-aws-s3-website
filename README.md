@@ -23,4 +23,5 @@ terraform apply -var.file terraform-dev.tfvars
 # Credits
 
 - https://medium.com/@frankpromiseedah/hosting-a-static-website-on-aws-s3-using-terraform-e12addd22d18
+- https://github.com/Frankpromise/aws-solutions-architect/tree/master/s3-static-website
 - https://www.w3schools.com/w3css/w3css_templates.asp

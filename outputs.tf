@@ -15,6 +15,6 @@ output "bucket_domain" {
 
 output "bucket_endpoint" {
   description = "Endpoint of the s3 Bucket"
-  value = data.aws_s3_bucket.selected-bucket.website_endpoint
+  value       = data.aws_s3_bucket.selected-bucket.website_endpoint
 
 }

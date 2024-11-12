@@ -22,6 +22,6 @@ resource "aws_s3_object" "s3_upload_file" {
   source       = "index.html" # Local path to the file
   key          = "index.html" # The formal name in the s3Bucket
   content_type = "text/html"
-#   acl          = "public-read"
-  etag         = filemd5("index.html")
+  #   acl          = "public-read"
+  etag = filemd5("index.html")
 }
