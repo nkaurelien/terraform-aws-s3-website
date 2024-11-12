@@ -6,3 +6,21 @@
 - Review its content before using it in your environment.
 - The root module is two directories up.
 - This repository is free of usage and welcomes improvements and feedback.
+
+# RUN 
+
+```console
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+
+terraform init
+
+terraform plan -var-file terraform-dev.tfvars
+
+terraform apply -var.file terraform-dev.tfvars
+```
+
+# Credits
+
+- https://medium.com/@frankpromiseedah/hosting-a-static-website-on-aws-s3-using-terraform-e12addd22d18
+- https://www.w3schools.com/w3css/w3css_templates.asp
